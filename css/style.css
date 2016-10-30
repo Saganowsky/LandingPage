@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/
+@import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+
+* {
+margin:0;
+border:0;
+padding: 0;	
+}
+
+body{
+background-color: #ffffff;	
+font-family: 'Hind', sans-serif;
+font-size: 18px;
+position:  relative;
+}
+
+h1{
+	font-family: 'Nobile', sans-serif;
+	text-align: center;
+	font-size: 175%;
+	color: #606060;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 3%;
+}
+
+h3{
+	font-family: 'Nobile', sans-serif;
+	text-align: center;
+	font-size: 110%;
+	color: #606060;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	padding: 2% 0;
+}
+
+p{
+
+padding: 2%;
+color: #636363;
+text-align:justify;
+font-size:100%;
+}
+
+img{
+max-width:100%;
+height: auto;	
+}
+
+.logo img {
+width: 400px;
+    
+    
+}
+
+
+/*Slider Section*/
+
+.slider{
+width:100%;
+}
+
+.slider1 img{
+min-width:100%;
+margin: 0 auto;
+}
+
+img {
+max-width:100%;
+height:auto;
+}
+
+#banner-wrapper{
+	max-width:1280px;
+	margin: 0 auto;
+	
+}
+
+/*Start image Slider*/
+
+
+
+.slider .bx-wrapper .bx-controls-direction a {
+	
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top: 40%;
+	height: 71px;
+	width: 40px;
+	z-index: -1;
+	transition: all 0.7s;	
+	
+}
+
+.slider .bx-wrapper:hover .bx-controls-direction a{
+z-index: 999;
+}
+
+.slider .bx-wrapper .bx-prev{
+background: black url("left-arrow-white.png") no-repeat 8px 13px;
+left:0px;
+opacity: 0.5;		
+}
+
+
+.slider .bx-wrapper .bx-prev:hover{
+	opacity:0.7;
+}
+
+.slider .bx-wrapper .bx-next{
+background-color: #000000;
+background: black url("right-arrow-white.png") no-repeat 8px 13px;
+right:0px;
+opacity: 0.5;		
+
+}
+
+
+.slider .bx-wrapper .bx-next:hover{
+	opacity:0.7;
+}
+
+.one-half{
+width:44%;
+float:left;
+margin: 2% 0 3% 4%;
+text-align: center;
+}
+
+.one-third{
+float:left;
+width:28%;
+margin: 2% 0 3% 4%;
+text-align:center;	
+
+	
+}
+
+section .one-third p{
+color: white;
+}
+
+section .one-third h3{
+	
+color: white;
+}
+
+.left-col{
+float:left;
+width:60%;
+margin: 4% 0 4% 4%;	
+	
+}
+
+.sidebar{
+width:26%;	
+float:right;
+margin: 4% 4%;
+}
+
+.sidebar img{
+opacity: 0.8;	
+}
+
+
+/*-- Star Parallax Section*/ 
+.parallax-1{
+background:url("../img/parallax-image-1.jpg") repeat fixed 100%;
+text-align:center;
+overflow:auto;
+	padding:5%;
+}
+	
+.clearfix{	
+clear:both;
+}
+
+/*Koniec Parallaxa*/
+
+.footer{
+
+text-align:center;
+background-color: #262E37;
+margin-top: 5%;
+padding: 30px;
+
+color:#fff;	
+}
+
+.parallax-2{
+background:url("http://cdn26.us1.fansshare.com/photo/desktopwallpapertumblr/holiday-blue-hd-ocean-wallpaper-xpx-ocean-wallpaper-hd-for-walls-border-bedroom-backgrounds-free-tumblr-wallpapers-high-resolution-desktop-772095990.jpg")repeat fixed 100%;
+float:left;
+z-index:1000;
+text-align:center;
+
+padding:5%;
+
+}
+
